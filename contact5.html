@@ -1,0 +1,380 @@
+
+<html>
+
+
+<head>
+
+
+</head>
+
+
+<style>
+
+
+@font-face {
+    font-family: "myRobotobold";
+    src: url(/Portfolio/fonts/fonts/myRoboto.ttf/Roboto-Bold.ttf)format(truetype);
+  }
+  
+  @font-face {
+   font-family: "myRoboto";
+   src: url(/Portfolio/fonts/fonts/myRoboto.ttf/Roboto-Regular.ttf)format(truetype);
+  }
+  
+  @font-face {
+     font-family: "myRobotoitalic";
+     src: url(/Portfolio/fonts/fonts/myRoboto.ttf/Roboto-Italic.ttf)format(truetype);
+   }
+
+body {
+    background-color: rgb(90, 90, 90);
+
+}  
+   
+#invisible {
+    width: 900px;
+    height: 650px ;
+    border:0px solid slateblue ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+    
+#contact {
+
+   width: 700px;
+   height: 650px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   border: 1px solid rgb(4, 4, 4);
+   border-radius: 10px;
+   box-shadow:4px 4px 4px rgb(255, 255, 255); 
+   background-color: aquamarine;
+   
+   
+   
+   
+}
+
+#containercontact {  
+    width: 300px;
+    height: 600px;
+    border: 0px solid rgb(4, 4, 4);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 20px;
+    
+   
+
+    
+    
+
+}
+
+#name1 ,#Surname1 ,#Phone1 ,#Email1 ,#Message1 {
+     width:295px ;
+     height: 50px;
+     border: 0px solid blue;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: row;
+    
+  
+  
+     
+}
+
+#name2 ,#Surname2 ,#Phone2 ,#Email2 ,#Message2 {
+    width:130px ;
+    height: 30px;
+    margin-right: 10px ;
+    border: 0px solid rgb(247, 3, 198);
+    display: flex;
+    justify-content: center;
+    font-family: roboto;
+   
+
+}
+
+
+#nametext ,#surnametext ,#phonenumber ,#emailtext ,#messagetext {
+    font-size: 15px; 
+    font-family: roboto;
+    border-radius: 5px;
+    resize: none;
+}
+
+#messagetext {
+    width: 179px;
+    height: 100px;
+    border-radius: 5px;
+    border:2px solid black ;
+}
+ 
+ #textmessage {
+    width: 200px;
+    height: 150px;
+    border: 0px solid black;
+    resize: none;
+
+
+ }
+ 
+#iframe {
+    width: 300px;
+    height: 420px;
+    border: 0px solid rgb(4, 4, 4);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+    margin-top: 15px;
+    
+    
+   
+   
+
+}
+
+#controls {
+    width:300px ;
+    height:100px;
+    border:0px solid blue;
+
+}
+
+button {
+   width: 80px;
+   height: 40px;
+   border: 0px solid black;
+   background: rgb(81, 255, 0);
+   color: black;
+   font-family: roboto;
+   border-radius: 5px;
+}
+
+button:hover {
+  background: white ;
+
+}
+
+#submit {
+  width: 110px;
+  height: 40px;
+  border: 0px solid green;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 8px;
+  padding-left: 30px;
+
+
+
+}
+
+#information {
+   width:20px ;
+   height:40px ;
+   border: 0px solid black;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-top:  10px;
+     
+}
+
+span {
+    width: 190px;
+    height:22px ;
+    border: 0px solid rgb(191, 0, 255);
+    font-family: roboto;
+    font-size: 9px;
+    color: black;
+    margin-bottom: 10px;
+   
+   
+}
+
+#centercontrol {
+    width:295px;
+    height: 60px;
+    border: 0px solid brown;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 80px;
+
+}
+
+#centertext {
+    width:150px;
+    height: 40px;
+    border: 0px solid rgb(70, 69, 69);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15px;
+
+}
+
+#allcontrol {
+    width: 200px;
+    height: 80px;
+    border: 0px solid rgb(231, 99, 99);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+section {
+    width: 300px;
+    height:650px ;
+    border: 0px solid pink;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#section2 {
+    width: 330px;
+    height:650px ;
+    border: 0px solid rgb(251, 2, 43);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 30px;
+   
+}
+
+a {
+   text-underline-position: below;
+}
+
+a:hover {
+  color: blue;
+
+}
+
+#textiframe {
+    width: 300px;
+    height: 150px;
+    border: 0px solid salmon;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+}
+
+#textiframe1 {
+    font-family: roboto;
+    font-size: 14px;
+}
+
+
+</style>
+
+
+<body>
+
+<div id="invisible">  
+    
+  <form id="contact">
+
+
+  <section>
+   
+
+       <div id="containercontact">
+
+           <div id="name1">
+                <label id="name2">Name*</label>
+                <div id="name3"><input id="nametext" type="text" name="nombre" required></input></div>
+           </div>
+           
+           <div id="Surname1">
+               <label id="Surname2">Surname*</label>
+               <div id="Surname3"><input id="surnametext" type="text" name="surname" required></input></div>
+           </div>
+           
+           
+           <div id="Phone1">
+               <label id="Phone2">Phone</label>
+               <div id="Phone3"><input id="phonenumber" type="number" name="phone" maxlength="15"></input></div>
+           </div>
+           
+           <div id="Email1">
+               <label id="Email2">E-mail*</label>
+               <div id="Email3"><input  id="emailtext"  type="text" name="e-mail" required></div>  
+           </div>
+           
+           
+           <div id="Message1">
+               <label id="Message2">Message*</label>
+               <div id="Message3"><textarea id="messagetext" type="textarea" name="text" required></textarea></div>
+
+       </div>
+
+
+
+
+   
+
+     <div id="centercontrol">
+
+            <div id="information">
+                <input  type="checkbox">
+                <input  type="checkbox">
+             </div>
+        
+             <div id="centertext">
+                <span><a href="https://privacyinternational.org/sites/default/files/2017-12/Privacy%20as%20a%20Political%20Right.pdf" target="_blank">Privacy policy</a></span>
+                <span>I accept to receive commercial information</span>
+             </div>       
+
+     
+
+             <div id="submit"><button>SUBMIT</button></div>
+
+     </section>
+
+  
+
+
+ 
+
+ <div id="section2">
+
+     <iframe id="iframe"    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d873443.2452337762!2d120.8172119801736!3d31.223841166192344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35b27040b1f53c33%3A0x295129423c364a1!2sShangh%C3%A1i%2C%20China!5e0!3m2!1ses!2ses!4v1732637561232!5m2!1ses!2ses"></iframe>
+
+     <div id="textiframe">
+
+         <p id="textiframe1">  The data that comes directly from the interested party will be collected under the
+                 responsibility of the company XXXXX for the purpose of managing the event to which you are registering. 
+                 You have the right to access, rectify and delete your data and other rights in the additional information
+         </p>
+
+     </div>
+
+ </div>
+
+
+
+
+
+  </form>
+
+</div>
+
+
+</body>
+
+
+
+</html>
